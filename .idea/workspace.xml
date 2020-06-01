@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad616443-c894-4c7c-95ca-500b2b9761d1" name="默认的" comment="" />
+    <list default="true" id="ad616443-c894-4c7c-95ca-500b2b9761d1" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +144,7 @@
       <workItem from="1590803000152" duration="13054000" />
       <workItem from="1590823251098" duration="7097000" />
       <workItem from="1590974538710" duration="390000" />
-      <workItem from="1590975845364" duration="873000" />
+      <workItem from="1590975845364" duration="2672000" />
     </task>
     <servers />
   </component>
@@ -156,6 +160,10 @@
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
     <state x="1098" y="423" key="#HTTP_Proxy/0.23.2560.1345@0.23.2560.1345" timestamp="1590823147873" />
+    <state x="1121" y="504" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590977998524">
+      <screen x="0" y="23" width="2560" height="1345" />
+    </state>
+    <state x="1121" y="504" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1345@0.23.2560.1345" timestamp="1590977998524" />
     <state x="789" y="334" key="SettingsEditor" timestamp="1590823405909">
       <screen x="0" y="23" width="2560" height="1345" />
     </state>
