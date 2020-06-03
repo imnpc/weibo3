@@ -85,13 +85,11 @@ class UsersController extends Controller
     {
         $view = 'emails.confirm';
         $data = compact('user');
-        $from = 'summer@example.com';
-        $name = 'Summer';
         $to = $user->email;
         $subject = "感谢注册 Weibo 应用！请确认你的邮箱。";
 
-        Mail::send($view, $data, function ($message) use ($from, $name, $to, $subject) {
-            $message->from($from, $name)->to($to)->subject($subject);
+        Mail::send($view, $data, function ($message) use ($to, $subject) {
+            $message->to($to)->subject($subject);
         });
     }
     public function confirmEmail($token)
@@ -106,4 +104,5 @@ class UsersController extends Controller
         session()->flash('success', '恭喜你，激活成功！');
         return redirect()->route('users.show', [$user]);
     }
+
 }
